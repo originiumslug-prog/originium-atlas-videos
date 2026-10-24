@@ -1,0 +1,37 @@
+name: 日本公式動画の更新
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '23 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: official-video-catalog
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+
+      - name: 日本公式の新着を照合
+        run: python update_videos.py
+
+      - name: 更新した一覧を保存
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add operator-videos.json pending-videos.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update Japanese official video catalog'
+            git push
+          fi
