@@ -1,6 +1,6 @@
 {
   "channelId": "UCvoQlzEzqa6vQA8hq9GNNug",
-  "lastCheckedAt": "2026-10-25T10:49:19Z",
+  "lastCheckedAt": "2026-10-25T11:48:02Z",
   "videos": [
     {
       "id": "TrI5jgIhO4Q",
@@ -111,6 +111,13 @@
       "id": "ypBUPKXx_oI",
       "title": "「ロドス学園」朝8時",
       "publishedAt": "2026-10-25T09:30:21+00:00",
+      "channelId": "UCvoQlzEzqa6vQA8hq9GNNug",
+      "reason": "主役・紹介対象をタイトルから確定できないため未登録"
+    },
+    {
+      "id": "-88onn4e4yo",
+      "title": "「Immutable (Cover)」ケルシー",
+      "publishedAt": "2026-10-25T11:00:30+00:00",
       "channelId": "UCvoQlzEzqa6vQA8hq9GNNug",
       "reason": "主役・紹介対象をタイトルから確定できないため未登録"
     }
