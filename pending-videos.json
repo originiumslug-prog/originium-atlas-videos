@@ -1,6 +1,6 @@
 {
   "channelId": "UCvoQlzEzqa6vQA8hq9GNNug",
-  "lastCheckedAt": "2026-11-10T03:07:28Z",
+  "lastCheckedAt": "2026-11-10T09:10:58Z",
   "videos": [
     {
       "id": "TrI5jgIhO4Q",
@@ -139,6 +139,13 @@
       "id": "7A9XWVbdQHE",
       "title": "アークナイツ 復刻「命ある者の旅」アニメPV",
       "publishedAt": "2026-11-03T08:55:14+00:00",
+      "channelId": "UCvoQlzEzqa6vQA8hq9GNNug",
+      "reason": "主役・紹介対象をタイトルから確定できないため未登録"
+    },
+    {
+      "id": "op1CdvFEoQE",
+      "title": "アークナイツ × モンスターハンター コラボ予告PV",
+      "publishedAt": "2026-11-10T08:00:30+00:00",
       "channelId": "UCvoQlzEzqa6vQA8hq9GNNug",
       "reason": "主役・紹介対象をタイトルから確定できないため未登録"
     }
