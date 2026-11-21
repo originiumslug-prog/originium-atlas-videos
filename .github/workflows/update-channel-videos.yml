@@ -1,0 +1,34 @@
+name: 日本公式YouTube新着一覧の更新
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '43 * * * *'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: official-video-catalog
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: 公式フィードを確認
+        run: python update_channel_videos.py
+      - name: 一覧を保存
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git add channel-videos.json
+          if ! git diff --cached --quiet; then
+            git commit -m 'Update official YouTube channel list'
+            git push
+          fi
