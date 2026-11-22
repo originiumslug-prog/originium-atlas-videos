@@ -2,8 +2,13 @@
   "schemaVersion": 1,
   "channelId": "UCvoQlzEzqa6vQA8hq9GNNug",
   "channelUrl": "https://www.youtube.com/@ArknightsStaff_JP",
-  "lastCheckedAt": "2026-11-22T07:49:35+00:00",
+  "lastCheckedAt": "2026-11-22T09:24:35+00:00",
   "videos": [
+    {
+      "id": "CHwtYZto5vI",
+      "title": "アークナイツ「ポジションサッカー選手権」イベントPV",
+      "publishedAt": "2026-11-22T09:00:16+00:00"
+    },
     {
       "id": "QtBSumtUYbw",
       "title": "アークナイツ「泡影を穿つ碧雷」イベントPV",
@@ -73,11 +78,6 @@
       "id": "sPYwOpSMTVY",
       "title": "一分（ちょい）でわかるテラ 第7話 天災を生き残る心得",
       "publishedAt": "2026-10-17T08:00:11+00:00"
-    },
-    {
-      "id": "m4-xvRnpy_o",
-      "title": "「Innocence」ユリカリパブリック",
-      "publishedAt": "2026-10-16T07:56:43+00:00"
     }
   ]
 }
