@@ -2,8 +2,13 @@
   "schemaVersion": 1,
   "channelId": "UCvoQlzEzqa6vQA8hq9GNNug",
   "channelUrl": "https://www.youtube.com/@ArknightsStaff_JP",
-  "lastCheckedAt": "2026-11-26T05:25:41+00:00",
+  "lastCheckedAt": "2026-11-26T15:43:36+00:00",
   "videos": [
+    {
+      "id": "_oKl3sknzns",
+      "title": "「Secret Escape」Simone Torres",
+      "publishedAt": "2026-11-26T07:56:25+00:00"
+    },
     {
       "id": "CHwtYZto5vI",
       "title": "アークナイツ「ポジションサッカー選手権」イベントPV",
@@ -73,11 +78,6 @@
       "id": "LFteOHSZPfE",
       "title": "アークナイツスペシャルPV「人生」",
       "publishedAt": "2026-10-21T08:00:29+00:00"
-    },
-    {
-      "id": "sPYwOpSMTVY",
-      "title": "一分（ちょい）でわかるテラ 第7話 天災を生き残る心得",
-      "publishedAt": "2026-10-17T08:00:11+00:00"
     }
   ]
 }
