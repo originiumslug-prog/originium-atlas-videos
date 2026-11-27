@@ -2,8 +2,13 @@
   "schemaVersion": 1,
   "channelId": "UCvoQlzEzqa6vQA8hq9GNNug",
   "channelUrl": "https://www.youtube.com/@ArknightsStaff_JP",
-  "lastCheckedAt": "2026-11-27T00:47:07+00:00",
+  "lastCheckedAt": "2026-11-27T10:06:17+00:00",
   "videos": [
+    {
+      "id": "L6jDEkeIZXE",
+      "title": "アークナイツ「モンスターハンターコラボ」復刻紅炎遣らう落葉TVCM",
+      "publishedAt": "2026-11-27T09:00:09+00:00"
+    },
     {
       "id": "_oKl3sknzns",
       "title": "「Secret Escape」Simone Torres",
@@ -73,11 +78,6 @@
       "id": "p-9Pb4NlNrE",
       "title": "「All by My Design」Nina Storey",
       "publishedAt": "2026-10-22T07:58:07+00:00"
-    },
-    {
-      "id": "LFteOHSZPfE",
-      "title": "アークナイツスペシャルPV「人生」",
-      "publishedAt": "2026-10-21T08:00:29+00:00"
     }
   ]
 }
